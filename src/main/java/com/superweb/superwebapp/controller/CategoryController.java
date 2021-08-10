@@ -12,12 +12,15 @@ import org.springframework.web.bind.annotation.RestController;
 import com.superweb.superwebapp.beans.CategoryBean;
 import com.superweb.superwebapp.entities.Category;
 import com.superweb.superwebapp.repository.CategoryRepository;
+import com.superweb.superwebapp.repository.SubCategoryRepository;
 
 @RestController
 @RequestMapping("/category")
 public class CategoryController {
 	
-	
+	//just to test by me
+	@Autowired
+	SubCategoryRepository subcategoryRepository;
 	
 	@Autowired
 	CategoryRepository categoryRepository;
