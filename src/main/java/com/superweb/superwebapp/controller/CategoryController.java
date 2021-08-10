@@ -18,9 +18,7 @@ import com.superweb.superwebapp.repository.SubCategoryRepository;
 @RequestMapping("/category")
 public class CategoryController {
 	
-	//just to test by me
-	@Autowired
-	SubCategoryRepository subcategoryRepository;
+	
 	
 	@Autowired
 	CategoryRepository categoryRepository;
